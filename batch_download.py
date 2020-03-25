@@ -10,7 +10,7 @@ parser.add_argument('--out-dir', default='./tmp')
 parser.add_argument('--resize', default=0.5625, type=float)
 args = parser.parse_args()
 
-url_template = 'gs://waymo_open_dataset_v_1_0_0/{split}/{split}_%04d.tar'.format(split=args.split)
+url_template = 'gs://waymo_open_dataset_v_2_0_0/{split}/{split}_%04d.tar'.format(split=args.split)
 if args.split == 'training':
     num_segs = 32
 elif args.split == 'validation':
