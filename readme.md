@@ -5,7 +5,7 @@ This tool downloads Waymo Open Dataset and converts it into KITTI-like format th
 ## Prerequisite
 
 * python 2 or 3
-* gsutil (command line tool to download files from google cloud)
+* gsutil (command line tool to download files from google cloud. Follow this [Guide](https://cloud.google.com/sdk/docs) to install. After installing the Cloud SDK, simply run `gsutil` in your terminal. A browser will prompt out, asking you about your google account. After that you will be free to use gsutil)
 * waymo_open_dataset (follow the [Quick Start](https://github.com/waymo-research/waymo-open-dataset/blob/master/docs/quick_start.md))
 
 ## How to use
